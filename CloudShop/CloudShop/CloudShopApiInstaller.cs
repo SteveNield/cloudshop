@@ -14,6 +14,7 @@ namespace CloudShop
                 Component.For<ITraceWrapper>().ImplementedBy<TraceWrapper>(),
                 Classes.FromThisAssembly()
                     .BasedOn<ApiController>()
+                    .LifestyleTransient()
             );
         }
     }
