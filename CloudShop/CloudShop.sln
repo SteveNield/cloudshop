@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudShop.Test.Acceptance",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudShop", "CloudShop\CloudShop.csproj", "{DD25191F-F6B2-41E9-B251-CFF9558AAAA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudShop.Test.Unit", "CloudShop.Test.Unit\CloudShop.Test.Unit.csproj", "{F8BF9FB0-EEC2-4C6F-8570-C75F9315A654}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DD25191F-F6B2-41E9-B251-CFF9558AAAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD25191F-F6B2-41E9-B251-CFF9558AAAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD25191F-F6B2-41E9-B251-CFF9558AAAA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8BF9FB0-EEC2-4C6F-8570-C75F9315A654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8BF9FB0-EEC2-4C6F-8570-C75F9315A654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8BF9FB0-EEC2-4C6F-8570-C75F9315A654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8BF9FB0-EEC2-4C6F-8570-C75F9315A654}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
